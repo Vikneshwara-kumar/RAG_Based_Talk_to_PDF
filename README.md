@@ -90,9 +90,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Streamlit](https://streamlit.io) for the amazing web framework
 - [LangChain](https://langchain.org) for document processing utilities
 - [FAISS](https://github.com/facebookresearch/faiss) for efficient similarity search
-
-## 📧 Contact
-
-Your Name - [@yourusername](https://twitter.com/yourusername)
-
-Project Link: [https://github.com/Vikneshwara-kumar/RAG_Based_Talk_to_PDF.git](https://github.com/Vikneshwara-kumar/RAG_Based_Talk_to_PDF.git)
