@@ -47,6 +47,9 @@ class PDFQASystem:
         relevant_docs = self.vector_store.similarity_search(user_query, k=k)
         context = "\n".join(doc.page_content for doc in relevant_docs)
 
+
+
+
         prompt = f"""You are a helpful assistant. Using the following context, please answer the user's question as detailed as possible from the provided context, make sure to provide all the details. 
         If the answer cannot be found in the context, say so.
 
@@ -54,6 +57,10 @@ class PDFQASystem:
         {context}
 
         Question: {user_query}
+
+        Please structure your response as follows:
+        - **Key Points**: List each main point in bullet points.
+        - **Summary**: Provide a brief paragraph summarizing the main findings.
 
         Answer:"""
 
